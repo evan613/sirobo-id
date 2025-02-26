@@ -1,0 +1,136 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #ff0000; /* Merah */
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Section Styles */
+section {
+  padding: 60px 20px;
+  text-align: center;
+  margin-bottom: 60px; /* Jarak antar section lebih jauh */
+}
+
+/* Home Section */
+#home {
+  background-color: #ffcccc; /* Warna putih muda */
+}
+
+#home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center; /* memastikan judul tengah */
+}
+
+#home p {
+  font-size: 1.2rem;
+  line-height: 1.6; /* Menambahkan jarak antar baris agar lebih mudah dibaca */
+  margin-bottom: 30px;
+  max-width: 800px; /* Membatasi lebar agar tidak terlalu lebar */
+  margin-left: auto;
+  margin-right: auto; /* Membuat teks terpusat */
+}
+
+/* About Section */
+#about {
+  background-color: #ffcccc;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center; /* memastikan judul tengah */
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.6; /* Menambahkan jarak antar baris agar lebih mudah dibaca */
+  margin-bottom: 20px;
+  max-width: 800px; /* Membatasi lebar agar tidak terlalu lebar */
+  margin-left: auto;
+  margin-right: auto; /* Membuat teks terpusat */
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.buy-button {
+  display: inline-block;
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.buy-button:hover {
+  background-color: #cc0000;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #ffcccc;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #ff0000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
